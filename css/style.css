@@ -44,3 +44,31 @@
   font-size: 1.8rem;
   color: #3a8aff;
 } */
+
+/* /header-top */
+
+/* jumbotron */
+.jumbo{
+  width: 100%;
+  padding: 50px 0;
+  margin-top: 60px;
+  background-color: blue;
+}
+
+.jumbo h1{
+  color:#fff;
+  font-weight: bolder;
+  font-size: 5.5rem;
+}
+
+.jumbo p{
+  color:#fff;
+  font-size: 2rem;
+}
+
+.block-jumbo{
+  background-color: #fff;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+}
