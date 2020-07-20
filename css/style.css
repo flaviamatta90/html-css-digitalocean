@@ -109,6 +109,7 @@ h6{
 .second-section{
   margin-bottom: 70px;
 }
+
 .h2-p{
   text-align: center;
   margin:40px 0;
@@ -172,7 +173,7 @@ h6{
   background-color:#006aff;
   height: 15px;
   border-radius: 100%;
-  border: 1px solid #fff;
+  border: 1px solid #006aff;
 }
 
 .point-white{
@@ -182,6 +183,14 @@ h6{
   border: 1px solid #006aff;
 }
 /* <!-- /third-section --> */
+
+/* <!-- forth-section --> */
+
+.box-purple{
+  background-color: purple;
+  height: 200px;
+}
+/* <!-- /forth-section --> */
 
 
 @media screen and (max-width: 768px) {
