@@ -158,7 +158,6 @@ body{
   margin: auto;
   background-color: #fff;
   margin-top: 10px;
-
 }
 
 .jumbo-google img{
@@ -227,20 +226,43 @@ body{
 
 /* second-section */
 .second-section{
+  width: 100%;
   margin-bottom: 70px;
 }
 
 .box-left{
-  background-color: yellow;
-  height: 400px;
   margin-top:30px;
+  border-left: 1px solid #75809a;
 }
 
-.box-right{
-  background-color: black;
-  height: 200px;
-  margin-top: 30px;
+.box-left ul{
+  list-style: none;
+}
 
+.box-left li{
+  padding: 20px 5px;
+  font-size: 2rem;
+  color: #75809a;
+}
+
+
+.box-right{
+  margin-top: 30px;
+}
+
+.box-right img{
+  height: 50px;
+  display: block;
+}
+
+.box-right h5{
+  color: #031c4e;
+  font-size: 2rem;
+}
+
+.box-right p{
+  color: #5c6a88;
+  font-size: 1.8rem;
 }
 /* /second-section */
 
