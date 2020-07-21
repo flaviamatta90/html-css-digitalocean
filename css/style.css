@@ -4,7 +4,7 @@ body{
 
 .h2-p{
   text-align: center;
-  margin:25px 0;
+  margin:40px 0;
 }
 
 .h2-p h2{
@@ -97,7 +97,7 @@ body{
   width: 100%;
   padding: 50px 0;
   margin-top: 60px;
-  background-color: #004aff;
+  background-image: url("../img/bg_home.jpg");
 }
 
 .jumbo h1{
@@ -114,6 +114,7 @@ body{
 .block-jumbo{
   background-color: #fff;
   border-radius: 10px;
+  margin-top: -30px;
 }
 
 .block-jumbo h5{
@@ -244,7 +245,6 @@ body{
   font-size: 2rem;
   color: #75809a;
 }
-
 
 .box-right{
   margin-top: 30px;
