@@ -354,7 +354,7 @@ footer{
   color: #6b7792;
 }
 
-.last-footer li{
+.social li{
   display: inline-block;
   color: #fff;
   list-style: none;
@@ -370,6 +370,22 @@ footer{
   margin: 0 5px;
 }
 
+.colum-right{
+  margin: 40px 0;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.colum-right a{
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #a6adbd;
+}
+
+.list{
+  list-style: none;
+  margin-left: -40px;
+}
 /* /footer */
 
 
