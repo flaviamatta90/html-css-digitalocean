@@ -2,6 +2,22 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.h2-p{
+  text-align: center;
+  margin:25px 0;
+}
+
+.h2-p h2{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #031c4e;
+}
+
+.h2-p p{
+  font-size: 2rem;
+  color: #5c6a88;
+}
+
 .header-top{
   position: fixed;
   top: 0;
@@ -72,7 +88,6 @@ body{
   background-color: #fff;
   margin: 28px 0;
   vertical-align: middle;
-
 }
 
 /* /header-top */
@@ -82,7 +97,7 @@ body{
   width: 100%;
   padding: 50px 0;
   margin-top: 60px;
-  background-color: blue;
+  background-color: #004aff;
 }
 
 .jumbo h1{
@@ -96,12 +111,87 @@ body{
   font-size: 2rem;
 }
 
-/* .block-jumbo{
+.block-jumbo{
   background-color: #fff;
-  height: 500px;
-  width: 500px;
   border-radius: 10px;
-} */
+}
+
+.block-jumbo h5{
+  color: #031c4e;
+  font-size: 2.8rem;
+  padding-top: 45px;
+}
+
+.block-jumbo h6{
+  color: #006aff;
+  font-size: 2.8rem;
+  padding-top: 15px;
+}
+
+.form-main{
+  display: block;
+  width: 90%;
+  margin: auto;
+  line-height: 65px;
+  padding: 10px 12px;
+  font-size: 1.8rem;
+  border-style: none;
+  }
+
+.jumbo-a{
+  width: 90%;
+  margin: auto;
+  background-color: #579aff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.block-jumbo a{
+  margin: auto;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.jumbo-google{
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 10px;
+
+}
+
+.jumbo-google img{
+  max-width: 20px;
+  float: left;
+  line-height: 10px;
+  vertical-align: middle;
+}
+
+.jumbo-google a{
+  margin-right: 20px;
+  color: #898989;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.last-box{
+  margin: 20px 0;
+}
+
+.last-box p{
+  margin: auto;
+  color:#031c4e;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.last-box a{
+  color: #016dff;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
 /* /jumbotron */
 
 /* /header */
@@ -114,7 +204,7 @@ body{
   background-color: #f3f5f9;
 }
 
-h6{
+.first-section h6{
   text-align: center;
   font-size: 1.7rem;
   margin: 40px 0;
@@ -138,22 +228,6 @@ h6{
 /* second-section */
 .second-section{
   margin-bottom: 70px;
-}
-
-.h2-p{
-  text-align: center;
-  margin:25px 0;
-}
-
-.h2-p h2{
-  font-size: 3.5rem;
-  font-weight: bold;
-  color: #031c4e;
-}
-
-.h2-p p{
-  font-size: 2rem;
-  color: #5c6a88;
 }
 
 .box-left{
