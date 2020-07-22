@@ -325,6 +325,7 @@ body{
 /* <!-- fifth-section --> */
 .fifth-section{
   width: 100%;
+  position: relative;
   margin-top: 30px;
   background: rgb(0,70,197);
   background: rgb(0,70,197);
@@ -336,49 +337,29 @@ body{
   color:#fff;
 }
 
-/* .fifth-section li{
+.fifth-section li:not(:last-child){
   color: #fff;
-  font-size: 1.7rem;
   border-bottom: 1px solid #fff;
-} */
-
-/* .sx{
-  margin-right: 30px;
 }
 
-.cent{
-  margin-left: 30px;
+.fifth-section li{
+  padding: 5px 0;
 }
-
-.dx{
-  text-align: right;
-  font-size: 1.7rem;
-  color: #00d1d1;
-  text-decoration: none;
-} */
 
 .fifth-section span:not(:last-child){
-  margin-right: 30px;
+  margin-right: 10px;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .fifth-section a{
   margin-left: 150px;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #00d1d1;
   text-decoration: none;
   width: 100px;
 }
 
-.regions:not(:last-child){
-  border-bottom: 1px solid #fff;
-  max-width: 100%;
-}
-
-.border-marg{
-  margin-bottom: 30px;
-}
 
 /* <!-- /fifth-section --> */
 
@@ -525,15 +506,20 @@ footer{
 /* /footer */
 
 
+/* media */
 @media screen and (max-width: 580px){
-.fifth-section a{
-  margin-left: 10px;
+  .fifth-section a{
+    margin-left: 10px;
+  }
 }
 
 @media screen and (max-width: 430px){
 .fifth-section a {
   font-size: 1rem;
-}
+ }
+ .fifth-section span{
+   font-size: 1rem;
+ }
 }
 
 
@@ -546,4 +532,5 @@ footer{
 @media screen and (max-width: 992px) and (min-width: 769px){
 .first-section img{
   height:80px;
+ }
 }
