@@ -18,6 +18,11 @@ body{
   color: #5c6a88;
 }
 
+.container-navbar{
+  width: 100%;
+  margin:auto;
+}
+
 .header-top{
   position: fixed;
   top: 0;
@@ -26,6 +31,8 @@ body{
   width: 100%;
   background-color: #fff;
 }
+
+
 
 .header-top img{
   width: 100%;
