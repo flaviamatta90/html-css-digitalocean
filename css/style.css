@@ -1,3 +1,4 @@
+/* general */
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -16,21 +17,6 @@ body{
 .h2-p p{
   font-size: 2rem;
   color: #5c6a88;
-}
-
-.header-top{
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: #fff;
-}
-
-.header-top img{
-  width: 100%;
-  margin: 28px 0;
-  vertical-align: middle;
 }
 
 .list-inline {
@@ -57,6 +43,25 @@ body{
 .main-menu a {
   color: #031c4e;
   text-decoration: none;
+}
+
+/* general */
+
+/* header */
+/* header-top */
+.header-top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header-top img{
+  width: 100%;
+  margin: 28px 0;
+  vertical-align: middle;
 }
 
 .botto-signup{
@@ -89,7 +94,6 @@ body{
   margin: 28px 0;
   vertical-align: middle;
 }
-
 /* /header-top */
 
 /* jumbotron */
@@ -134,7 +138,7 @@ body{
   width: 90%;
   margin: auto;
   line-height: 65px;
-  padding: 10px 12px;
+  margin-top: 10px;
   font-size: 1.8rem;
   border-style: none;
   }
@@ -345,16 +349,25 @@ body{
 
 .fifth-section li{
   padding: 5px 0;
+  width: 100%;
 }
 
-.fifth-section span:not(:last-child){
-  margin-right: 10px;
+.fifth-section span{
+  margin-right: 20px;
+  float: left;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.fifth-section p{
+  float: left;
+  text-align: center;
   color: #fff;
   font-size: 1.5rem;
 }
 
 .fifth-section a{
-  margin-left: 150px;
+  float: right;
   font-size: 1.5rem;
   color: #00d1d1;
   text-decoration: none;
