@@ -18,11 +18,6 @@ body{
   color: #5c6a88;
 }
 
-.container-navbar{
-  width: 100%;
-  margin:auto;
-}
-
 .header-top{
   position: fixed;
   top: 0;
@@ -31,8 +26,6 @@ body{
   width: 100%;
   background-color: #fff;
 }
-
-
 
 .header-top img{
   width: 100%;
@@ -260,6 +253,7 @@ body{
 .box-right img{
   height: 50px;
   display: block;
+  margin-bottom: 25px;
 }
 
 .box-right h5{
@@ -297,37 +291,41 @@ body{
   color:#031c4e;
 }
 
-.point p{
+.pointer p{
   color: #031c4e
 }
 
-.point-blu{
-  background-color:#006aff;
-  height: 15px;
-  border-radius: 100%;
-  border: 1px solid #006aff;
-}
-
-.point-white{
+.point{
   background-color:#fff;
   height: 15px;
   border-radius: 100%;
   border: 1px solid #006aff;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.point:hover{
+  background: #006aff;
 }
 /* <!-- /third-section --> */
 
 /* <!-- forth-section --> */
-
-.box-purple{
-  background-color: purple;
-  height: 200px;
-  margin-bottom: 80px;
+.forth-section{
+  margin-bottom: 5%;
 }
+.box-right a{
+  text-decoration: none;
+  color: #0b72ff;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
 /* <!-- /forth-section --> */
 
 /* <!-- fifth-section --> */
 .fifth-section{
   width: 100%;
+  margin-top: 30px;
   background: rgb(0,70,197);
   background: rgb(0,70,197);
   background: rgb(0,71,197);
@@ -365,7 +363,6 @@ body{
   font-size: 1.6rem;
 }
 
-
 .fifth-section a{
   margin-left: 150px;
   font-size: 1.6rem;
@@ -398,6 +395,7 @@ body{
   box-shadow: 0 0 25px #333333;
   border-radius: 5px;
   text-align: center;
+  padding: 30px 0;
 }
 
 .container-white img{
@@ -439,6 +437,11 @@ body{
 
 .arrow-right-down{
   color:#031c4e;
+}
+
+.pointer-down{
+  text-align: center;
+  margin-bottom: 50px;
 }
 /* <!-- /sixth-section --> */
 
