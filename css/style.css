@@ -326,6 +326,7 @@ body{
 .fifth-section{
   width: 100%;
   position: relative;
+  margin: auto;
   margin-top: 30px;
   background: rgb(0,70,197);
   background: rgb(0,70,197);
@@ -360,8 +361,8 @@ body{
   width: 100px;
 }
 
-
 /* <!-- /fifth-section --> */
+
 
 /* <!-- sixth-section --> */
 
@@ -455,6 +456,10 @@ body{
   color: #3889ff;
   text-decoration: none;
 }
+
+.botto:hover{
+  background-color: rgba(225,225,225,0.9);
+}
 /* <!-- /seventh-section --> */
 
 /* /main */
@@ -462,6 +467,7 @@ body{
 /* footer */
 footer{
   width: 100%;
+  position: relative;
   background-color: #031c4e;
 }
 
@@ -506,6 +512,37 @@ footer{
   list-style: none;
   margin-left: -40px;
 }
+
+/* popup */
+
+.pop-up{
+  position: fixed;
+  float: right;
+  width: 10%;
+  right: 5px;
+  bottom: 10%;
+  margin: 0 30px;
+  display: none;
+}
+
+.pop-up img{
+  margin: 20px 0;
+}
+
+.pop-up p{
+  line-height: 15px;
+  width: 100%;
+  color:#031c4e;
+  font-size: 1.3rem;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.pop-up:hover{
+  display: block;
+}
+
 /* /footer */
 
 
@@ -535,5 +572,14 @@ footer{
 @media screen and (max-width: 992px) and (min-width: 769px){
 .first-section img{
   height:80px;
+ }
+}
+
+@media screen and (max-width: 992px){
+.pop-up{
+  margin-right: 85%;
+ }
+ .pop-up p{
+   width: 250px;
  }
 }
